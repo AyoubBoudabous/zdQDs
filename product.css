@@ -1,0 +1,168 @@
+body{
+  background-image: url(./rese/ayoub.png);
+  background-size: cover;
+  background-attachment: fixed;
+}
+.container {
+  max-width: 960px;
+}
+
+/*
+ * Custom translucent site header
+ */
+
+.site-header {
+  background-color: rgba(0, 0, 0, .85);
+  -webkit-backdrop-filter: saturate(180%) blur(20px);
+  backdrop-filter: saturate(180%) blur(20px);
+}
+.site-header a {
+  color: white;
+  transition: ease-in-out color .15s;
+}
+.site-header a:hover {
+  color: #fff;
+  text-decoration: none;
+}
+
+/*
+ * Dummy devices (replace them with your own or something else entirely!)
+ */
+
+.product-device {
+  position: absolute;
+  right: 10%;
+  bottom: -30%;
+  width: 300px;
+  height: 540px;
+  background-color: #333;
+  border-radius: 21px;
+  -webkit-transform: rotate(30deg);
+  transform: rotate(30deg);
+}
+
+.product-device::before {
+  position: absolute;
+  top: 10%;
+  right: 10px;
+  bottom: 10%;
+  left: 10px;
+  content: "";
+  background-color: rgba(255, 255, 255, .1);
+  border-radius: 5px;
+}
+
+.product-device-2 {
+  top: -25%;
+  right: auto;
+  bottom: 0;
+  left: 5%;
+  background-color: #e5e5e5;
+}
+
+
+/*
+ * Extra utilities
+ */
+
+.flex-equal > * {
+  -ms-flex: 1;
+  flex: 1;
+}
+@media (min-width: 768px) {
+  .flex-md-equal > * {
+    -ms-flex: 1;
+    flex: 1;
+  }
+}
+
+.overflow-hidden { overflow: hidden; }
+
+
+
+
+.div a{
+  text-decoration: none;
+  color: black;
+  font-family: Source Sans Pro;
+  font-weight: lighter;
+  
+}
+.dropdown{
+  margin-top: -2.5%;
+ 
+}
+.dropdown-item {
+  display: block;
+  width: 100%;
+  padding: .25rem 1.5rem;
+  clear: both;
+  font-weight: 400;
+  color: darkgrey;
+  text-align: inherit;
+  white-space: nowrap;
+  background-color: transparent;
+  border: 0;
+position: static;}
+
+  .site-header a {
+    color: white;
+  }
+  .site-header a:hover{
+ color: grey ;
+  }
+  .site-header{
+    
+    color: white;
+  }
+  .sidebar a{
+    color:white;
+    margin: 5%;
+  }
+  .sidebar{
+    background-color:#807f7f ;
+  }
+  .site-header a{
+   color: white;
+  }
+  *, ::after, ::before {
+    color: black;
+  }
+  .site-header{
+    background-color: #262626;
+  }
+  .sidebar{
+   background-color: #262626;
+  }
+  .dropdown-menu{
+  background-color: rgb(52, 58, 64) !important;
+    position: absolute;
+    transform: translate3d(0px, 64px, 0px);
+    top: 0px;
+    left: 0px;
+    will-change: transform;
+}
+::before{
+  color: white;
+}
+.dropdown-toggle::after{
+  color: white;
+}
+
+.btn{
+  transition: 0.8s;
+  color:white
+}
+.btn1:hover,.btn2:hover,.btn3:hover{
+  color: grey;
+}
+.btn1::before,.btn2::before,.btn3::before{
+  top: 0%;
+  border-radius: 0% 0% 50% 50%;
+}
+.btn1:hover::before,.btn2:hover::before,.btn3:hover::before{
+  height: 180%;
+}
+
+
+
